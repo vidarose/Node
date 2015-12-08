@@ -1,8 +1,6 @@
 function logItem(item, callback){
   console.log("Logging Item: " + item);
-   //process.nextTick(function() {
-    callback(item);
-  //});
+   process.nextTick(function() {callback(item);});
 } 
 
 logItem('Car', function(msg){

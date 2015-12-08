@@ -19,3 +19,4 @@ console.log("Last: " + obj.last);
 // ^load os from node_modules
 var os = require('os');
 console.log("platform :" + os.platform());
+

@@ -1,3 +1,6 @@
+// This app is to callback practice - Asyn (Checking if a file does exist))
+// second line
+
 var fs = require('fs');
 
 function FileObject () {
